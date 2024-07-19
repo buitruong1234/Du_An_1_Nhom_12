@@ -22,4 +22,8 @@ function update_taikhoan($id,$username,$password,$email,$address,$phone){
     $sql="update user set user='".$username."', pass='".$password."', email='".$email."', address='".$address."', tel='".$phone."' where id=".$id;
     pdo_execute($sql);
 }
+function delete_user($id){
+    $sql="delete from user where id_user=".$id;
+    pdo_execute($sql);
+}
 ?>

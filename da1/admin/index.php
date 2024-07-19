@@ -2,6 +2,7 @@
 include "../models/pdo.php";
 include "../models/category.php";
 include "../models/products.php";
+include "../models/account.php";
 include "header.php";
 
 if (isset($_GET['act'])) {
@@ -101,26 +102,47 @@ if (isset($_GET['act'])) {
             $listsp = loadAll_products();
             include "products/list.php";
             break;
-        case 'addtk':
+        case 'listk':
+            $listtk = loadAll_user();
+            include "account/list.php";
+            break;
+        case 'adduser':
             //Kiểm tra
             if (isset($_POST['themmoi']) && ($_POST['themmoi'])) {
-                $name = $_POST['name'];
-                $pass = $_POST['price'];
-                $image = $_FILES['image']['name'];
-                $target_dir = "../upload/";
-                $date = $_POST['date'];
-                $view = $_POST['view'];
-                $description = $_POST['description'];
+                $username = $_POST['username'];
+                $password = $_POST['password'];
+                $ho_ten = $_POST['ho_ten'];
+                $Total_bill = $_POST['Total_bill'];
+                $email = $_POST['email'];
+                $phone = $_POST['phone'];
+                $role = $_POST['role'];
+                $address = $_POST['address'];
 
-                insert_products($name, $price, $image, $date, $view, $description, $id_cata);
+                insert_user($username, $password, $ho_ten, $Total_bill, $email, $phone, $role, $address);
                 $thongbao = "Thêm thành công";
             }
             $listtk = loadAll_user();
-            // var_dump($listdm);
-            include "products/add.php";
+            include "account/add.php";
             break;
         default:
             include "home.php";
+            break;
+        case 'updatetk':
+            if (isset($_POST['capnhat']) && ($_POST['capnhat'])) {
+                $username = $_POST['username'];
+                $id = $_POST['id_user'];
+                update_products($id, $username);
+                $thongbao = "Cập nhật thành công";
+            }
+            $listsp = loadAll_user();
+            include "account/list.php";
+            break;
+        case 'deletetk':
+            if (isset($_GET['id']) && ($_GET['id'] > 0)) {
+                delete_user($_GET['id']);
+            }
+            $listsp = loadAll_user();
+            include "account/list.php";
             break;
     }
 } else {

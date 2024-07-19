@@ -68,7 +68,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.php?act=adduser" class="nav-link">
+                            <a href="index.php?act=listk" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Khách Hàng</p>
                             </a>
@@ -87,7 +87,7 @@
     </div>
     <!-- /.sidebar -->
 </aside>
-<form action="index.php?act=addtk" method="post" enctype="multipart/form-data" style="margin-left:260px;">
+<form action="index.php?act=adduser" method="post" enctype="multipart/form-data" style="margin-left:260px;">
     <h1>Thêm Người dùng</h1>
     <?php
     if (isset($thongbao) && ($thongbao != "")) echo $thongbao;
@@ -95,11 +95,11 @@
     <div class="card-body">
         <div class="form-group">
             <label for="exampleInputEmail1">UserName</label>
-            <input type="text" name="name" class="form-control" placeholder="Nhập tên Người dùng">
+            <input type="text" name="username" class="form-control" placeholder="Nhập tên Người dùng">
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Password</label>
-            <input type="text" name="pass" class="form-control" placeholder="Nhập Mật khẩu">
+            <input type="text" name="password" class="form-control" placeholder="Nhập Mật khẩu">
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Full Name</label>

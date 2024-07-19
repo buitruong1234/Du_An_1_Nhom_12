@@ -88,9 +88,9 @@
     <!-- /.sidebar -->
 </aside>
 <div class="main" style="margin-left:260px;">
-    <h1>Danh Sách Sản Phẩm</h1>
+    <h1>Danh Sách Người Dùng</h1>
     <div class="col-12">
-        <a href="index.php?act=addtk"><input type="submit" class="btn btn-primary" name="themmoi" value="Thêm Mới"></a>
+        <a href="index.php?act=adduser"><input type="submit" class="btn btn-primary" name="themmoi" value="Thêm Mới"></a>
     </div>
     <table class="table">
         <thead>
@@ -109,8 +109,8 @@
         <?php
         foreach ($listtk as $user) {
             extract($user);
-            $updatetk = "index.php?act=updatesp&id=" . $id_user;
-            $deletetk = "index.php?act=deletesp&id=" . $id_user;
+            $updatetk = "index.php?act=updatetk&id=" . $id_user;
+            $deletetk = "index.php?act=deletetk&id=" . $id_user;
             echo '<tr>
         <th scope="row">' . $id_user . '</th>
         <td>' . $username . '</td>
@@ -122,8 +122,8 @@
         <td>' . $role . '</td>
         <td>' . $address . '</td>
         <td>
-          <a href="' . $update . '"><input type="button" class="btn btn-success" value="Sửa"></a>
-          <a href="' . $delete . '"><input type="button" class="btn btn-warning" value="Xoá"></a>
+          <a href="' . $updatetk . '"><input type="button" class="btn btn-success" value="Sửa"></a>
+          <a href="' . $deletetk . '"><input type="button" class="btn btn-warning" value="Xoá"></a>
         </td>
       </tr>';
         }
