@@ -75,7 +75,7 @@
                 <div class="container clearfix" id="site-header-inner">
                     <div id="logo" class="logo float-left">
                         <a href="index.html" title="logo">
-                            <img src="./pub/images/logo.png" alt="image" width="107" height="24" data-retina="./pub/images/logo@2x.png" data-width="107" data-height="24">
+                            <img src="./client/pub/images/logo.png" alt="image" width="107" height="24" data-retina="./client/pub/images/logo@2x.png" data-width="107" data-height="24">
                         </a>
                     </div><!-- /.logo -->
                     <div class="mobile-button"><span></span></div>
@@ -110,11 +110,7 @@
                             <ul class="menu">
                                 <li class="active">
                                     <a href="index.php">HOME</a>
-                                    <ul class="submenu">
-=======
-                                    <a href="index.php">HOME</a>
                                     <!-- <ul class="submenu">
->>>>>>> Stashed changes
                                         <li><a href="index.html">Homepage Style 1</a></li>
                                         <li class="active"><a href="index-v2.html">Homepage Style 2</a></li>
                                         <li><a href="index-v3.html">Homepage Style 3</a></li>
@@ -128,7 +124,7 @@
                                     </ul> -->
                                 </li>
                                 <li>
-                                    <a href="index.php?act=danhmuc.php">SHOP</a>
+                                    <a href="index.php?act=danhmuc">SHOP</a>
                                     <ul class="submenu">
                                         <?php
                                         if (is_array($listdm)) {

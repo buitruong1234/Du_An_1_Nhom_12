@@ -1,16 +1,25 @@
 <?php
 session_start();
-include "../models/pdo.php";
-include "../models/taikhoan.php";
+include "./models/pdo.php";
+include "./models/taikhoan.php";
+include "global.php";
+include "./models/products.php";
+include "./models/category.php";
+include "client/header.php";
+// include "client/detailProduct.php";
 
-include "header.php";
+$spnew = loadAll_products_home();
+$listdm = loadAll_category();
 
 if (isset($_GET['act']) && ($_GET['act'] != "" )) {
     $act = $_GET['act'];
     switch($act){
-        case'danhmuc':
-            include "danhmuc.php";
-            break;
+        case 'danhmuc':
+            include './client/danhmuc.php';
+        break;
+        case 'detail':
+            include './client/detailProduct.php';
+        break;
         case'dangky':
             if(isset($_POST['dangky']) && ($_POST['dangky'])){
                 $username = $_POST['username'];
@@ -32,7 +41,7 @@ if (isset($_GET['act']) && ($_GET['act'] != "" )) {
                 $thongbao ="Đăng ký thành công";
             }
 
-            include "taikhoan/dangky.php";
+            include "client/taikhoan/dangky.php";
             break;
 
             case 'dangnhap':
@@ -47,7 +56,7 @@ if (isset($_GET['act']) && ($_GET['act'] != "" )) {
                         $thongBao="Tài khoản không tồn tại. Vui lòng đăng kí tài khoản!";
                     }
                 }
-            include "taikhoan/dangnhap.php";
+            include "client/taikhoan/dangnhap.php";
             break;
 
             case 'edit_taikhoan':
@@ -65,7 +74,7 @@ if (isset($_GET['act']) && ($_GET['act'] != "" )) {
                     $_SESSION['username'] = checkuser($username,$password);
                     header("Location:index.php?act=edit_taikhoan"); 
                 }
-            include "taikhoan/edit_taikhoan.php";
+            include "client/taikhoan/edit_taikhoan.php";
             break;
 
             case 'dangxuat':
@@ -74,14 +83,12 @@ if (isset($_GET['act']) && ($_GET['act'] != "" )) {
             break;
 
         default:
-            include 'home.php';
+            include 'client/home.php';
             break;
     }
 }else{
-    include 'home.php';
+    include 'client/home.php';
 }
-// include 'home.php';
-include 'footer.php';
-include "header.php";
-
-                       
+// include 'client/home.php';
+include 'client/footer.php';
+?>

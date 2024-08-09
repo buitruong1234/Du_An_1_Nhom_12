@@ -1,4 +1,5 @@
 <?php
+
 include "../models/pdo.php";
 include "../models/category.php";
 include "../models/products.php";
@@ -58,7 +59,7 @@ if (isset($_GET['act'])) {
                 $price = $_POST['price'];
 
                 $image = $_FILES['image']['name'];
-                $target_dir = "../upload/";
+                $target_dir = "../admin/upload/";
                 $target_file = $target_dir . basename($_FILES["image"]["name"]);
                 if (move_uploaded_file($_FILES["image"]["tmp_name"], $target_file)) {
                     // File uploaded successfully
@@ -115,7 +116,7 @@ if (isset($_GET['act'])) {
 
                 $image = $_FILES['image']['name'];
                 if ($image) {
-                    $target_dir = "../upload/";
+                    $target_dir = "../admin/upload/";
                     $target_file = $target_dir . basename($image);
                     move_uploaded_file($_FILES["image"]["tmp_name"], $target_file);
                 } else {
@@ -135,6 +136,8 @@ if (isset($_GET['act'])) {
             break;
 
         case 'adduser':
+            ini_set('display_errors', 1);
+            error_reporting(E_ALL);
             if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['themmoi'])) {
                 $username = $_POST['username'];
                 $password = $_POST['password'];
@@ -179,7 +182,7 @@ if (isset($_GET['act'])) {
                 include "user/update.php";
             }
             break;
-
+        
         case 'updateUser':
             if (isset($_POST['capnhat']) && $_POST['capnhat']) {
                 $id_user = $_POST['id_user'];
@@ -191,46 +194,40 @@ if (isset($_GET['act'])) {
                 $address = $_POST['address'];
                 $id_role = $_POST['id_role'];
 
-                update_user($id_user, $username, $password, $ho_ten, $email, $phone, $address, $id_role);
-                $thongbao = "Cập nhật thành công";
-                $listuser = loadAll_user();
-                include "user/list.php";
-            }
+        case 'listdh':
+            $listorder = loadAll_order();
+            include "order/list.php";
             break;
-        case 'listcmt':
-            $listcmt = loadAll_comment(0);
-            include "comment/list.php";
-            break;
-  
-        case 'deletecmt':
-            if (isset($_GET['id_cmt']) && $_GET['id_cmt'] > 0) {
-                delete_comment($_GET['id_cmt']);
-            }
-            $listdm = loadAll_comment(0);
-            include "comment/list.php";
-            break;
+        case 'adddh':
+            print_r($_POST);
+            if (isset($_POST['themmoi']) && $_POST['themmoi'])  {
+                $totalbill = $_POST['totalbill'];
+                $trangthai = $_POST['trangthai'];
+                $ho_ten = $_POST['ho_ten'];
+                $email = $_POST['email'];
+                $phone = $_POST['phone'];
+                $address = $_POST['address'];
+                $date = $_POST['date'];
+                $id_user = $_POST['id_user'];
 
-        case 'listnew':
-            $listnew = loadAll_new();
-            include "news/list.php";
-            break;
-
-        case 'addnew':
-            if (isset($_POST['themmoi']) && $_POST['themmoi']) {
-                $image_new = $_FILES['image_new']['name'];
-                $target_dir = "../upload/";
-                $target_file = $target_dir . basename($_FILES["image_new"]["name"]);
-                if (move_uploaded_file($_FILES["image_new"]["tmp_name"], $target_file)) {
-                    // File uploaded successfully
-                } else {
-                    // Error uploading file   
+                try {
+                    insert_order($totalbill, $trangthai, $ho_ten, $email, $phone, $address, $date, $id_user);
+                    $sthongbao = "Thêm thành công";
+                } catch (Exception $e) {
+                    echo 'Caught exception: ',  $e->getMessage(), "\n";
                 }
-                $content_new = $_POST['content_new'];
-                insert_news($image_new, $content_new);
-                $thongbao = "Thêm thành công";
             }
-            $listdm = loadAll_new();
-            include "news/add.php";
+            $listuser = loadAll_user();
+            $listorder = loadAll_order();
+            include "order/add.php";
+            break;
+
+        case 'deletedh':                
+            if (isset($_GET['id']) && $_GET['id'] > 0) {
+                delete_order($_GET['id']);
+            }
+            $listorder = loadAll_order();
+            include "order/list.php";
             break;
 
         default:
@@ -242,4 +239,4 @@ if (isset($_GET['act'])) {
 }
 
 include "footer.php";
-
+?>
