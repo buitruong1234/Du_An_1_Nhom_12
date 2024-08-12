@@ -20,6 +20,7 @@
 </nav>
 <!-- breadcrumb-section end -->
 <style>
+<<<<<<< Updated upstream
                 .magiamgia {
   display: flex;
   justify-content: space-between;
@@ -89,6 +90,82 @@ input[type="text"] {
           display:flex;
         }
       </style>
+=======
+    .magiamgia {
+        display: flex;
+        justify-content: space-between;
+        max-width: 300px;
+        margin: auto;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .nhap {
+        flex: 1;
+        margin-right: 10px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .apdung input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 8px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .apdung input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    .nhap input[type="text"]:hover {
+        border-color: #6fa5db;
+    }
+</style>
+<style>
+    .phivc {
+        float: right;
+        margin-right: 10px;
+    }
+
+    .nut_radio {
+        border: solid 1px #e6e6e6;
+        padding: 10px 0;
+    }
+
+    .nut_radio label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .ip {
+        vertical-align: middle;
+        margin-left: 13px;
+    }
+
+    .pttt {
+        margin-top: 25px;
+    }
+
+    .lb {
+        margin-bottom: 10px;
+    }
+
+    .magiamgia {
+        weight: 100%;
+        display: flex;
+    }
+</style>
+>>>>>>> Stashed changes
 
 <!-- checkout area start -->
 <?php 
@@ -126,6 +203,7 @@ input[type="text"] {
                   <input type="text" value="<?=$diachi?>" name="diachi_nguoinhan" required />
                 </div>
               </div>
+<<<<<<< Updated upstream
               <!-- <div class="col-lg-12">
               <label  class="lb">Phương thức vận chuyển:</label>
                 <div class="nut_radio" >
@@ -133,6 +211,8 @@ input[type="text"] {
                   <div class="phivc">100d</div>
                 </div>
               </div> -->
+=======
+>>>>>>> Stashed changes
               <div class="col-lg-12 pttt">
               <label class="lb">Phương thức thanh toán:</label>
                 <div class="nut_radio" >
@@ -168,7 +248,12 @@ input[type="text"] {
                     foreach($listsanpham as $sp):
                   ?>
                   <li>
+<<<<<<< Updated upstream
                     <span class="order-middle-left" style="width:60%"><?=$sp['ten']." - ".$sp['thetich']?> </span>
+=======
+                   <span class="order-middle-left" style="width:100%"><img src="upload/<?=$sp['hinh']?>" alt="product image" style="width: 100px; height: auto;">
+                                      <strong><?=$sp['ten']?></strong></span>
+>>>>>>> Stashed changes
                     <span class="order-price"><?="x".$sp['soluong']."   ";?></span>
                     <span class="order-price"><?=number_format($sp['gia']*$sp['soluong'],0,",","."). " <u>đ</u>"?></span>
                   </li>
@@ -204,4 +289,8 @@ input[type="text"] {
 
 <?php
 include "view/footer.php";
+<<<<<<< Updated upstream
 ?>
+=======
+?>
+>>>>>>> Stashed changes
