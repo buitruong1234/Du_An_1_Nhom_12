@@ -42,6 +42,12 @@
                 <?php
                 if (isset($_SESSION['taikhoan']) && (is_array($_SESSION['taikhoan']))) {
                     extract($_SESSION['taikhoan']);
+<<<<<<< Updated upstream
+=======
+                    // echo '<pre>';
+                    // print_r($_SESSION);
+                    // echo '</pre>';
+>>>>>>> Stashed changes
                 }
                 ?>
               <form action="index.php?act=quenmk" method="POST" style="margin-bottom: 30px;">
