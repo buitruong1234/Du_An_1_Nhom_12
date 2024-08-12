@@ -1,90 +1,90 @@
         <!-- SLIDER -->
         <div class="rev_slider_wrapper fullwidthbanner-container">
             <div id="rev-slider2" class="rev_slider fullwidthabanner">
-                <ul>                    
+                <ul>
                     <!-- Slide 1 -->
                     <li data-transition="random">
-                       <!-- Main Image -->
-                       <img src="./pub/images/slider/slider-bg-3.jpg" alt="" data-bgposition="center center" data-no-retina>
-                      
-                       <!-- Layers -->
-                       <div class="tp-caption tp-resizeme text-6e6 font-weight-500 letter-spacing-08"
-                           data-x="['left','left','left','center']" data-hoffset="['7','7','7','0']"
-                           data-y="['middle','middle','middle','middle']" data-voffset="['-122','-122','-122','-122']"
-                           data-fontsize="['18','18','18','18']"
-                           data-lineheight="['36','36','36','36']"
-                           data-width="full"
-                           data-height="none"
-                           data-whitespace="normal"
-                           data-transform_idle="o:1;"
-                           data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                           data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                           data-mask_in="x:0px;y:[100%];" 
-                           data-mask_out="x:inherit;y:inherit;" 
-                           data-start="700" 
-                           data-splitin="none" 
-                           data-splitout="none" 
-                           data-responsive_offset="on">
-                           In store & Online
-                       </div>
-                   
-                       <div class="tp-caption tp-resizeme text-333 font-weight-500 letter-spacing-3"
-                           data-x="['left','left','left','center']" data-hoffset="['7','7','7','0']"
-                           data-y="['middle','middle','middle','middle']" data-voffset="['-62','-62','-62','-62']"
-                           data-fontsize="['72','72','72','46']"
-                           data-lineheight="['80','80','80','50']"
-                           data-width="full"
-                           data-height="none"
-                           data-whitespace="normal"
-                           data-transform_idle="o:1;"
-                           data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                           data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                           data-mask_in="x:0px;y:[100%];" 
-                           data-mask_out="x:inherit;y:inherit;" 
-                           data-start="1000" 
-                           data-splitin="none" 
-                           data-splitout="none" 
-                           data-responsive_offset="on">
-                           BLACK FRIDAY
-                       </div>
-                   
-                       <div class="tp-caption tp-resizeme text-6e6 font-weight-300 "
-                           data-x="['left','left','left','center']" data-hoffset="['7','7','7','0']"
-                           data-y="['middle','middle','middle','middle']" data-voffset="['3','3','3','3']"
-                           data-fontsize="['20','20','20','20']"
-                           data-lineheight="['48','48','48','48']"
-                           data-width="full"
-                           data-height="none"
-                           data-whitespace="normal"
-                           data-transform_idle="o:1;"
-                           data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                           data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                           data-mask_in="x:0px;y:[100%];" 
-                           data-mask_out="x:inherit;y:inherit;" 
-                           data-start="1000" 
-                           data-splitin="none" 
-                           data-splitout="none" 
-                           data-responsive_offset="on">
-                           30% SALE  OFF EVERYTHING
-                       </div>
-                   
-                       <div class="tp-caption"
-                           data-x="['left','left','left','center']" data-hoffset="['7','7','7','0']"
-                           data-y="['middle','middle','middle','middle']" data-voffset="['72','72','72','72']"
-                           data-width="full"
-                           data-height="none"
-                           data-whitespace="normal"
-                           data-transform_idle="o:1;"
-                           data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                           data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                           data-mask_in="x:0px;y:[100%];" 
-                           data-mask_out="x:inherit;y:inherit;" 
-                           data-start="1000" 
-                           data-splitin="none" 
-                           data-splitout="none" 
-                           data-responsive_offset="on">
-                           <a href="#" class="themesflat-button has-padding-36 bg-accent has-shadow"><span>SHOP NOW</span></a>
-                       </div>
+                        <!-- Main Image -->
+                        <img src="./pub/images/slider/slider-bg-3.jpg" alt="" data-bgposition="center center" data-no-retina>
+
+                        <!-- Layers -->
+                        <div class="tp-caption tp-resizeme text-6e6 font-weight-500 letter-spacing-08"
+                            data-x="['left','left','left','center']" data-hoffset="['7','7','7','0']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['-122','-122','-122','-122']"
+                            data-fontsize="['18','18','18','18']"
+                            data-lineheight="['36','36','36','36']"
+                            data-width="full"
+                            data-height="none"
+                            data-whitespace="normal"
+                            data-transform_idle="o:1;"
+                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                            data-mask_in="x:0px;y:[100%];"
+                            data-mask_out="x:inherit;y:inherit;"
+                            data-start="700"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-responsive_offset="on">
+                            In store & Online
+                        </div>
+
+                        <div class="tp-caption tp-resizeme text-333 font-weight-500 letter-spacing-3"
+                            data-x="['left','left','left','center']" data-hoffset="['7','7','7','0']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['-62','-62','-62','-62']"
+                            data-fontsize="['72','72','72','46']"
+                            data-lineheight="['80','80','80','50']"
+                            data-width="full"
+                            data-height="none"
+                            data-whitespace="normal"
+                            data-transform_idle="o:1;"
+                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                            data-mask_in="x:0px;y:[100%];"
+                            data-mask_out="x:inherit;y:inherit;"
+                            data-start="1000"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-responsive_offset="on">
+                            BLACK FRIDAY
+                        </div>
+
+                        <div class="tp-caption tp-resizeme text-6e6 font-weight-300 "
+                            data-x="['left','left','left','center']" data-hoffset="['7','7','7','0']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['3','3','3','3']"
+                            data-fontsize="['20','20','20','20']"
+                            data-lineheight="['48','48','48','48']"
+                            data-width="full"
+                            data-height="none"
+                            data-whitespace="normal"
+                            data-transform_idle="o:1;"
+                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                            data-mask_in="x:0px;y:[100%];"
+                            data-mask_out="x:inherit;y:inherit;"
+                            data-start="1000"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-responsive_offset="on">
+                            30% SALE OFF EVERYTHING
+                        </div>
+
+                        <div class="tp-caption"
+                            data-x="['left','left','left','center']" data-hoffset="['7','7','7','0']"
+                            data-y="['middle','middle','middle','middle']" data-voffset="['72','72','72','72']"
+                            data-width="full"
+                            data-height="none"
+                            data-whitespace="normal"
+                            data-transform_idle="o:1;"
+                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                            data-mask_in="x:0px;y:[100%];"
+                            data-mask_out="x:inherit;y:inherit;"
+                            data-start="1000"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-responsive_offset="on">
+                            <a href="#" class="themesflat-button has-padding-36 bg-accent has-shadow"><span>SHOP NOW</span></a>
+                        </div>
                     </li>
                     <!-- /End Slide 1 -->
 
@@ -92,7 +92,7 @@
                     <li data-transition="random">
                         <!-- Main Image -->
                         <img src="./pub/images/slider/slider-bg-5.jpg" alt="" data-bgposition="center center" data-no-retina>
-                       
+
                         <!-- Layers -->
                         <div class="tp-caption tp-resizeme text-white font-weight-300"
                             data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']"
@@ -103,13 +103,13 @@
                             data-height="none"
                             data-whitespace="normal"
                             data-transform_idle="o:1;"
-                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                            data-mask_in="x:0px;y:[100%];" 
-                            data-mask_out="x:inherit;y:inherit;" 
-                            data-start="700" 
-                            data-splitin="none" 
-                            data-splitout="none" 
+                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                            data-mask_in="x:0px;y:[100%];"
+                            data-mask_out="x:inherit;y:inherit;"
+                            data-start="700"
+                            data-splitin="none"
+                            data-splitout="none"
                             data-responsive_offset="on">
                             NEW TREND 2018
                         </div>
@@ -123,13 +123,13 @@
                             data-height="none"
                             data-whitespace="normal"
                             data-transform_idle="o:1;"
-                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
+                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                            data-mask_in="x:0px;y:[100%];" 
-                            data-mask_out="x:inherit;y:inherit;" 
-                            data-start="1000" 
-                            data-splitin="none" 
-                            data-splitout="none" 
+                            data-mask_in="x:0px;y:[100%];"
+                            data-mask_out="x:inherit;y:inherit;"
+                            data-start="1000"
+                            data-splitin="none"
+                            data-splitout="none"
                             data-responsive_offset="on">
                             New Collection
                         </div>
@@ -143,13 +143,13 @@
                             data-height="none"
                             data-whitespace="normal"
                             data-transform_idle="o:1;"
-                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                            data-mask_in="x:0px;y:[100%];" 
-                            data-mask_out="x:inherit;y:inherit;" 
-                            data-start="1000" 
-                            data-splitin="none" 
-                            data-splitout="none" 
+                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                            data-mask_in="x:0px;y:[100%];"
+                            data-mask_out="x:inherit;y:inherit;"
+                            data-start="1000"
+                            data-splitin="none"
+                            data-splitout="none"
                             data-responsive_offset="on">
                             BIG SALE OF THIS WEEK UP TO 30%
                         </div>
@@ -161,20 +161,20 @@
                             data-height="none"
                             data-whitespace="normal"
                             data-transform_idle="o:1;"
-                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                            data-mask_in="x:0px;y:[100%];" 
-                            data-mask_out="x:inherit;y:inherit;" 
-                            data-start="1000" 
-                            data-splitin="none" 
-                            data-splitout="none" 
+                            data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                            data-mask_in="x:0px;y:[100%];"
+                            data-mask_out="x:inherit;y:inherit;"
+                            data-start="1000"
+                            data-splitin="none"
+                            data-splitout="none"
                             data-responsive_offset="on">
                             <a href="#" class="themesflat-button has-padding-36 bg-accent has-shadow"><span>SHOP NOW</span></a>
                         </div>
                     </li>
                     <!-- /End Slide 2 -->
                 </ul>
-            </div> 
+            </div>
         </div>
         <!-- END SLIDER -->
 
@@ -184,7 +184,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="wrap-carousel-box">
-                            <div class="flat-image-box flat-carousel-box has-arrows arrow-center bg-transparent offset-62 offset-v-24 style-1 data-effect div-h22 clearfix" data-auto="true" data-column="3" data-column2="2" data-column3="1" data-gap="30" >
+                            <div class="flat-image-box flat-carousel-box has-arrows arrow-center bg-transparent offset-62 offset-v-24 style-1 data-effect div-h22 clearfix" data-auto="true" data-column="3" data-column2="2" data-column3="1" data-gap="30">
                                 <div class="owl-carousel owl-theme">
                                     <div class="item data-effect-item">
                                         <div class="inner">
@@ -252,9 +252,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div> <!-- /.owl-carousel  -->                         
+                                </div> <!-- /.owl-carousel  -->
                             </div>
-                        </div>                            
+                        </div>
                     </div>
                 </div>
             </div><!-- /.container -->
@@ -488,7 +488,7 @@
             <div class="container-fluid">
                 <div class="row equal sm-equal-auto">
                     <div class="col-md-6 half-background style-1">
-                        
+
                     </div>
                     <div class="col-md-6  bg-section bg-color-f5f">
                         <div class="flat-content-box clearfix" data-margin="0 0 0 8px" data-mobilemargin="0 0 0 0">
@@ -497,7 +497,7 @@
                                     <div class="divider h120 clearfix"></div>
                                     <h2 class="heading font-size-40 line-height-48">Deal Of The Week</h2>
                                     <p class="desc font-size-18 font-weight-400 line-height-48">Special Discount Limited Time Only</p>
-                                     <div class="divider h42 clearfix"></div>
+                                    <div class="divider h42 clearfix"></div>
                                     <div class="wrap-countdown no-margin-bottom">
                                         <div class="countdown style-1"></div>
                                     </div>
@@ -531,7 +531,7 @@
                                         <span class="new sale">Sale</span>
                                     </div>
                                     <div class="product-info clearfix">
-                                        <span class="product-title">Faux shearling aviator<br > jacket</span>
+                                        <span class="product-title">Faux shearling aviator<br> jacket</span>
                                         <div class="price">
                                             <del>
                                                 <span class="regular">$130.00</span>
@@ -585,7 +585,7 @@
                                         <span class="new">New</span>
                                     </div>
                                     <div class="product-info clearfix">
-                                        <span class="product-title">Hood wool blend duffle<br > coat</span>
+                                        <span class="product-title">Hood wool blend duffle<br> coat</span>
                                         <div class="price">
                                             <ins>
                                                 <span class="amount">$130.00</span>
@@ -605,7 +605,7 @@
                                         <span class="new sale">Sale</span>
                                     </div>
                                     <div class="product-info clearfix">
-                                        <span class="product-title">Slim-fit patterned suit<br > blazer</span>
+                                        <span class="product-title">Slim-fit patterned suit<br> blazer</span>
                                         <div class="price">
                                             <del>
                                                 <span class="regular">$170.00</span>
@@ -628,7 +628,7 @@
                                         <span class="new sale">Sale</span>
                                     </div>
                                     <div class="product-info clearfix">
-                                        <span class="product-title">Cotton cashmereblend<br > cardigan</span>
+                                        <span class="product-title">Cotton cashmereblend<br> cardigan</span>
                                         <div class="price">
                                             <del>
                                                 <span class="regular">$130.00</span>
@@ -653,7 +653,7 @@
                                         <a href="#">ADD TO CART</a>
                                     </div>
                                     <a href="#" class="like"><i class="fa fa-heart-o"></i></a>
-                                </li>                                
+                                </li>
                             </ul><!-- /.product -->
                         </div><!-- /.product-content -->
                     </div>
@@ -675,7 +675,7 @@
                                 <div class="text-wrap">
                                     <h5 class="heading letter-spacing--1"><a href="#">Free Shipping</a></h5>
                                     <p class="desc">Apply order over $99</p>
-                                </div>                                
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.col-md-3 -->
@@ -688,7 +688,7 @@
                                 <div class="text-wrap">
                                     <h5 class="heading letter-spacing--1"><a href="#">Cash On Delivery</a></h5>
                                     <p class="desc">Internet Trend To Repeat</p>
-                                </div>                                    
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.col-md-3 -->
@@ -701,7 +701,7 @@
                                 <div class="text-wrap">
                                     <h5 class="heading letter-spacing--1"><a href="#">Gift For All</a></h5>
                                     <p class="desc">Gift When Subscribe</p>
-                                </div>                                    
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.col-md-3 -->
@@ -714,7 +714,7 @@
                                 <div class="text-wrap">
                                     <h5 class="heading letter-spacing--1"><a href="#">Opening All Week</a></h5>
                                     <p class="desc">6.00 am - 17.00pm</p>
-                                </div>                                    
+                                </div>
                             </div>
                         </div>
                     </div><!-- /.col-md-3 -->
@@ -732,21 +732,21 @@
                             <h2 class="title">New Latest</h2>
                         </div>
                         <div class="new-latest-wrap">
-                            <div class="flat-new-latest post-wrap flat-carousel-box style4 data-effect clearfix" data-auto="false" data-column="3" data-column2="2" data-column3="1" data-gap="30" > 
+                            <div class="flat-new-latest post-wrap flat-carousel-box style4 data-effect clearfix" data-auto="false" data-column="3" data-column2="2" data-column3="1" data-gap="30">
                                 <div class="owl-carousel owl-theme">
                                     <article class="post clearfix">
                                         <div class="featured-post data-effect-item">
                                             <img src="./pub/images/blog/new-lastest-4-370x280.jpg" alt="image">
                                             <div class="overlay-effect bg-overlay-black opacity02"></div>
-                                        </div> 
-                                        <div class="content-post">                                        
+                                        </div>
+                                        <div class="content-post">
                                             <ul class="meta-post">
                                                 <li class="date">
-                                                    Oct 08, 2018 
+                                                    Oct 08, 2018
                                                 </li>
                                                 <li class="author">
                                                     <a href="#"> By Admin</a>
-                                                </li>                                                
+                                                </li>
                                             </ul><!-- /.meta-post -->
                                             <div class="title-post">
                                                 <h2><a href="blog-detail.html">The Most Classic, Unexpected, and Hottest Tech Gifts of 2018</a></h2>
@@ -756,21 +756,21 @@
                                                     <a href="blog-detail.html">Continue Reading </a>
                                                 </div>
                                             </div>
-                                        </div><!-- /.content-post -->                                           
+                                        </div><!-- /.content-post -->
                                     </article><!-- /.post -->
                                     <article class="post clearfix ">
                                         <div class="featured-post data-effect-item">
                                             <img src="./pub/images/blog/new-lastest-5-370x280.jpg" alt="image">
                                             <div class="overlay-effect bg-overlay-black opacity02"></div>
-                                        </div> 
-                                        <div class="content-post">                                        
+                                        </div>
+                                        <div class="content-post">
                                             <ul class="meta-post">
                                                 <li class="date">
-                                                    Oct 08, 2018 
+                                                    Oct 08, 2018
                                                 </li>
                                                 <li class="author">
                                                     <a href="#"> By Admin</a>
-                                                </li>                                                
+                                                </li>
                                             </ul><!-- /.meta-post -->
                                             <div class="title-post">
                                                 <h2><a href="blog-detail.html">Elizabeth Sulcer Is the Woman Behind Your Favorite Street Style Looks</a></h2>
@@ -780,21 +780,21 @@
                                                     <a href="blog-detail.html">Continue Reading </a>
                                                 </div>
                                             </div>
-                                        </div><!-- /.content-post -->                                           
+                                        </div><!-- /.content-post -->
                                     </article><!-- /.post -->
                                     <article class="post clearfix">
                                         <div class="featured-post data-effect-item">
                                             <img src="./pub/images/blog/new-lastest-6-370x280.jpg" alt="image">
                                             <div class="overlay-effect bg-overlay-black opacity02"></div>
-                                        </div> 
-                                        <div class="content-post">                                        
+                                        </div>
+                                        <div class="content-post">
                                             <ul class="meta-post">
                                                 <li class="date">
-                                                    Oct 08, 2018 
+                                                    Oct 08, 2018
                                                 </li>
                                                 <li class="author">
                                                     <a href="#"> By Admin</a>
-                                                </li>                                                
+                                                </li>
                                             </ul><!-- /.meta-post -->
                                             <div class="title-post">
                                                 <h2><a href="blog-detail.html">The Victoria's Secret x Balmain Collabo- ration Is Everything You Wanted It To Be</a></h2>
@@ -804,21 +804,21 @@
                                                     <a href="blog-detail.html">Continue Reading </a>
                                                 </div>
                                             </div>
-                                        </div><!-- /.content-post -->                                            
-                                    </article><!-- /.post --> 
+                                        </div><!-- /.content-post -->
+                                    </article><!-- /.post -->
                                     <article class="post clearfix">
                                         <div class="featured-post data-effect-item">
                                             <img src="./pub/images/blog/new-lastest-4-370x280.jpg" alt="image">
                                             <div class="overlay-effect bg-overlay-black opacity02"></div>
-                                        </div> 
-                                        <div class="content-post">                                        
+                                        </div>
+                                        <div class="content-post">
                                             <ul class="meta-post">
                                                 <li class="date">
-                                                    Oct 08, 2018 
+                                                    Oct 08, 2018
                                                 </li>
                                                 <li class="author">
                                                     <a href="#"> By Admin</a>
-                                                </li>                                                
+                                                </li>
                                             </ul><!-- /.meta-post -->
                                             <div class="title-post">
                                                 <h2><a href="blog-detail.html">The Most Classic, Unexpected, and Hottest Tech Gifts of 2018</a></h2>
@@ -828,21 +828,21 @@
                                                     <a href="blog-detail.html">Continue Reading </a>
                                                 </div>
                                             </div>
-                                        </div><!-- /.content-post -->                                           
+                                        </div><!-- /.content-post -->
                                     </article><!-- /.post -->
                                     <article class="post clearfix">
                                         <div class="featured-post data-effect-item">
                                             <img src="./pub/images/blog/new-lastest-5-370x280.jpg" alt="image">
                                             <div class="overlay-effect bg-overlay-black opacity02"></div>
-                                        </div> 
-                                        <div class="content-post">                                        
+                                        </div>
+                                        <div class="content-post">
                                             <ul class="meta-post">
                                                 <li class="date">
-                                                    Oct 08, 2018 
+                                                    Oct 08, 2018
                                                 </li>
                                                 <li class="author">
                                                     <a href="#"> By Admin</a>
-                                                </li>                                                
+                                                </li>
                                             </ul><!-- /.meta-post -->
                                             <div class="title-post">
                                                 <h2><a href="blog-detail.html">Elizabeth Sulcer Is the Woman Behind Your Favorite Street Style Looks</a></h2>
@@ -852,21 +852,21 @@
                                                     <a href="blog-detail.html">Continue Reading </a>
                                                 </div>
                                             </div>
-                                        </div><!-- /.content-post -->                                           
+                                        </div><!-- /.content-post -->
                                     </article><!-- /.post -->
                                     <article class="post clearfix">
                                         <div class="featured-post data-effect-item">
                                             <img src="./pub/images/blog/new-lastest-6-370x280.jpg" alt="image">
                                             <div class="overlay-effect bg-overlay-black opacity02"></div>
-                                        </div> 
-                                        <div class="content-post">                                        
+                                        </div>
+                                        <div class="content-post">
                                             <ul class="meta-post">
                                                 <li class="date">
-                                                    Oct 08, 2018 
+                                                    Oct 08, 2018
                                                 </li>
                                                 <li class="author">
                                                     <a href="#"> By Admin</a>
-                                                </li>                                                
+                                                </li>
                                             </ul><!-- /.meta-post -->
                                             <div class="title-post">
                                                 <h2><a href="blog-detail.html">The Victoria's Secret x Balmain Collabo- ration Is Everything You Wanted It To Be</a></h2>
@@ -876,12 +876,12 @@
                                                     <a href="blog-detail.html">Continue Reading </a>
                                                 </div>
                                             </div>
-                                        </div><!-- /.content-post -->                                            
-                                    </article><!-- /.post -->  
-                                </div><!-- /.owl-carousel -->                                                                                    
+                                        </div><!-- /.content-post -->
+                                    </article><!-- /.post -->
+                                </div><!-- /.owl-carousel -->
                             </div>
                         </div>
-                            
+
                     </div>
                 </div>
             </div>
